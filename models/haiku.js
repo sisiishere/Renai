@@ -2,13 +2,14 @@
 var Sequelize = require("sequelize");
 var sequelize = require("../config/connection.js");
 
-var Haiku = sequelize.define("haiku", {
-    autho: Sequelize.STRING,
-    haiku: Sequelize.STRING,
-    created_at: Sequelize.DATE
+function Haiku_app() {
+    var Haiku = sequelize.define("haiku", {
+        autho: Sequelize.STRING,
+        haiku: Sequelize.STRING,
+        created_at: Sequelize.DATE
 
-});
-
+    });
+}
 // var User = sequelize.define('user', {
 //     id: {
 //         type: Sequelize.INTEGER,
@@ -19,5 +20,6 @@ var Haiku = sequelize.define("haiku", {
 
 // Syncs with DB
 Haiku.sync();
+// return Haiku;
 
-module.exports = Haiku;
+module.exports = Haiku_app;

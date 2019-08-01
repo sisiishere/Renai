@@ -1,24 +1,35 @@
-var db = require("../models");
+var db = require("../models/haiku.js");
 
-module.exports = function(app) {
-  // Get all examples
-  app.get("/api/examples", function(req, res) {
-    db.Example.findAll({}).then(function(dbExamples) {
-      res.json(dbExamples);
+module.exports = function (app) {
+
+  // Get all haiku
+  app.get("/api/all", function (req, res) {
+    Haiku.findAll({}).then(function (results) {
+      res.json(results);
     });
   });
 
-  // Create a new example
-  app.post("/api/examples", function(req, res) {
-    db.Example.create(req.body).then(function(dbExample) {
+  // Add a haiku
+  app.post("/api/new", function (req, res) {
+
+    console.log("Chirp Data:");
+    console.log(req.body);
+
+    Haiku.create({
+      author: req.body.author,
+      haiku: req.body.body,
+      created_at: req.body.created_at
+    }).then(function (results) {
+      // `results` here would be the newly created chirp
+      res.end();
+    });
+
+  });
+
+  app.delete("/api/:id", function (req, res) {
+    db.Example.destroy({ where: { id: req.params.id } }).then(function (dbExample) {
       res.json(dbExample);
     });
   });
 
-  // Delete an example by id
-  app.delete("/api/examples/:id", function(req, res) {
-    db.Example.destroy({ where: { id: req.params.id } }).then(function(dbExample) {
-      res.json(dbExample);
-    });
-  });
 };

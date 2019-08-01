@@ -1,3 +1,11 @@
-.list-group-item {
-  line-height: 2.5;
+.card {
+  margin: 10px;
+  background-color: rgb(211, 3, 20);
+  color: rgb(199, 82, 88);
+}
+
+.jumbotron {
+  margin: 10px;
+  background-color: rgb(255, 134, 144);
+  color: rgb(82, 1, 5);
 }

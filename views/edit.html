@@ -7,7 +7,6 @@
   <!-- Latest compiled and minified CSS & JS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="styles/style.css">
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
@@ -16,7 +15,7 @@
 <body>
 
   <div class="container">
-    <div class="jumbotron" style = "background-color: rgb(255, 134, 144); color: rgb(82, 1, 5);">
+    <div class="jumbotron">
       <h1>Profile</h1>
 
     </div>
@@ -24,7 +23,7 @@
 
       <div class="col-lg-12">
 
-        <div class="card" style = "background-color: rgb(211, 3, 20); color: rgb(199, 82, 88)">
+        <div class="card">
           <div class="card-header">
             Insert Your Bio
           </div>
@@ -95,21 +94,6 @@
               </div>
 
               <div class="form-group">
-                <label for="">Sexual Orientation</label>
-                <input type="select" form class="form-control" id="sexual-orientation" placeholder=""> <br>
-                   <select>
-                    <option value="Straight">Straight</option>
-                    <option value="Gay">Gay</option>
-                    <option value="Lesbian">Lesbian</option>
-                    <option value="Bisexual">Bisexual</option>
-                    <option value="Pansexual">Pansexual</option>
-                    <option value="Polysexual">Polysexual</option>
-                    <option value="Queer">Queer</option>
-                    <option value="Other">Other</option>
-                </select>
-              </div>
-
-              <div class="form-group">
                 <label for="">Biological Sex</label>
                 <input type="select" class="form-control" id="biological-sex" placeholder="">
                 <select>
@@ -175,45 +159,45 @@
               </div>
 
               <div class="form-group">
-                <label for="">Age Group in Partner</label> 
-                <form class="form-control" id="agip" placeholder=""> <br>
-          
-                  <input type="checkbox" value="18-24">18-24<br>
-                  <input type="checkbox" value="25-29">25-29<br>
-                  <input type="checkbox" value="30-34">30-34<br>
-                  <input type="checkbox" value="35-39">35-39<br>
-                  <input type="checkbox" value="40-44">40-44<br>
-                  <input type="checkbox" value="45-49">45-49<br>
-                  <input type="checkbox" value="50-54">50-54<br>
-                  <input type="checkbox" value="55 and up">55 and up<br>
-             
+                <label for="">Age Group in Partner</label>
+                <input type="select" class="form-control" id="agip" placeholder="">
+                <select>
+                  <option value="18-24">18-24</option>
+                  <option value="25-29">25-29</option>
+                  <option value="30-34">30-34</option>
+                  <option value="35-39">35-39</option>
+                  <option value="40-44">40-44</option>
+                  <option value="45-49">45-49</option>
+                  <option value="50-54">50-54</option>
+                  <option value="55 and up">55 and up</option>
+                </select>
               </div>
 
               <div class="form-group">
-                <label for="">Biological Sex in Partner</label> 
-
-                <form class="form-control" id="bsip" placeholder=""> <br>
-                    <input type="checkbox" value="cisgender-male">Cisgender Male</br>
-                    <input type="checkbox" value="cisgender-female">Cisgender Female</br>
-                    <input type="checkbox" value="transgender-female">Transgender Female</br>
-                    <input type="checkbox" value="transgender-male">Transgender Male</br>
-                    <input type="checkbox" value="intersex">Intersex</br>
-
+                <label for="">Biological Sex in Partner</label>
+                <input type="select" class="form-control" id="bsip" placeholder="">
+                <select>
+                  <option value="cisgender-male">Cisgender Male</option>
+                  <option value="cisgender-female">Cisgender Female</option>
+                  <option value="transgender-female">Transgender Female</option>
+                  <option value="transgender-male">Transgender Male</option>
+                  <option value="intersex">Intersex</option>
+                </select>
               </div>
 
               <div class="form-group">
                 <label for="">Gender in Partner</label>
-
-                <form class="form-control" id="gip" placeholder=""> <br>
-                    <input type="checkbox" value="binary-male">Binary Male</br>
-                    <input type="checkbox" value="binary-female">Binary Female</br>
-                    <input type="checkbox" value="genderqueer">Genderqueer</br>
-                    <input type="checkbox" value="genderfluid">Genderfluid</br>
-                    <input type="checkbox" value="bigender">Bigender</br>
-                    <input type="checkbox" value="pangender">Pangender</br>
-                    <input type="checkbox" value="polygender">Polygender</br>
-                    <input type="checkbox" value="agender">Agender</br>
-
+                <input type="select" class="form-control" id="gip" placeholder="">
+                <select>
+                  <option value="binary-male">Binary Male</option>
+                  <option value="binary-female">Binary Female</option>
+                  <option value="genderqueer">Genderqueer</option>
+                  <option value="genderfluid">Genderfluid</option>
+                  <option value="bigender">Bigender</option>
+                  <option value="pangender">Pangender</option>
+                  <option value="polygender">Polygender</option>
+                  <option value="agender">Agender</option>
+                </select>
               </div>
 
               <div class="form-group">

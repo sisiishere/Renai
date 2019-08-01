@@ -3,11 +3,19 @@ var Sequelize = require("sequelize");
 var sequelize = require("../config/connection.js");
 
 var Haiku = sequelize.define("haiku", {
-    author: Sequelize.STRING,
+    autho: Sequelize.STRING,
     haiku: Sequelize.STRING,
     created_at: Sequelize.DATE
 
-})
+});
+
+// var User = sequelize.define('user', {
+//     id: {
+//         type: Sequelize.INTEGER,
+//         autoIncrement: true,
+//         primaryKey: true
+//     }
+// });
 
 // Syncs with DB
 Haiku.sync();

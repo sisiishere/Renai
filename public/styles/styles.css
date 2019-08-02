@@ -1,13 +1,72 @@
-body {
-  background-image: url("wallpaper.jpg");
-  background-color: #ac3751;
-}
 
-.card {
-  margin: 10px;
-  background-color: rgb(211, 3, 20);
-  color: rgb(199, 82, 88);
-}
+
+/* unvisited link */
+a:link {
+    color: rgb(55, 0, 255);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #00FF00;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #FF00FF;
+  }
+  
+  /* selected link */
+  a:focus {
+    color: #0000FF;
+  }
+
+  .jumbotron {
+    padding-top: 0px;
+    padding-bottom:0px;
+    background-image: url("../images/sakura.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   }
+
+   body,html {
+    background-image: url("../images/img_background.png");
+    background-repeat: no-repeat;
+    /* background-size: */
+
+   }
+
+ 
+
+h1  {
+    color: rgb(255, 8, 0);
+    font-family: 'Chalkduster', fantasy;
+    font-size: 300%;
+    font-style: italic;
+    text-align: center;
+    }
+
+h2  {
+    color: rgb(255, 8, 0);
+    font-family: 'Chalkduster', fantasy;
+    font-size: 800%;
+    font-style: italic;
+    text-align: center;
+    }    
+
+h3  {
+  color: rgb(255, 8, 0);
+  font-family: 'Chalkduster', fantasy;
+  font-size: 300%;
+  font-style: italic;
+  text-align: center;
+  }
+
+  .card {
+    margin: 10px;
+    background-color: rgb(211, 3, 20);
+    color: rgb(199, 82, 88);
+  }
 
 .jumbotron {
   margin: 10px;
@@ -34,16 +93,13 @@ p {
   text-align: center;
 }
 
-img {
-  width: 100%;
-  border: 5px solid red;
-  padding: 2px;
-  margin: 5px;
-}
+   
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+  padding: 2px;
+  border: 5px solid red;
 }

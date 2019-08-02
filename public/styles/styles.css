@@ -1,6 +1,8 @@
-body {
-  background-image: url("wallpaper.jpg");
+body,
+html {
+  background-image: url("/images/wallpaper.jpg") !important;
   background-color: #ac3751;
+  background-repeat: "no repeat";
 }
 
 .card {

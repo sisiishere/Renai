@@ -5,6 +5,65 @@ html {
   background-repeat: "no repeat";
 }
 
+/* unvisited link */
+a:link {
+  color: rgb(55, 0, 255);
+}
+
+/* visited link */
+a:visited {
+  color: #00ff00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ff00ff;
+}
+
+/* selected link */
+a:focus {
+  color: #0000ff;
+}
+
+.jumbotron {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-image: url("../images/sakura.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body,
+html {
+  background-image: url("../images/img_background.png");
+  background-repeat: no-repeat;
+  /* background-size: */
+}
+
+h1 {
+  color: rgb(255, 8, 0);
+  font-family: "Chalkduster", fantasy;
+  font-size: 300%;
+  font-style: italic;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(255, 8, 0);
+  font-family: "Chalkduster", fantasy;
+  font-size: 800%;
+  font-style: italic;
+  text-align: center;
+}
+
+h3 {
+  color: rgb(255, 8, 0);
+  font-family: "Chalkduster", fantasy;
+  font-size: 300%;
+  font-style: italic;
+  text-align: center;
+}
+
 .card {
   margin: 10px;
   background-color: rgb(211, 3, 20);
@@ -37,15 +96,10 @@ p {
 }
 
 img {
-  width: 100%;
-  border: 5px solid red;
-  padding: 2px;
-  margin: 5px;
-}
-
-img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+  padding: 2px;
+  border: 5px solid red;
 }

@@ -1,4 +1,8 @@
-<<<<<<< HEAD
+body {
+  background-image: url("wallpaper.jpg");
+  background-color: #ac3751;
+}
+
 .card {
   margin: 10px;
   background-color: rgb(211, 3, 20);
@@ -9,97 +13,37 @@
   margin: 10px;
   background-color: rgb(255, 134, 144);
   color: rgb(82, 1, 5);
-=======
+}
 
-/* unvisited link */
-a:link {
-    color: rgb(55, 0, 255);
-  }
-  
-  /* visited link */
-  a:visited {
-    color: #00FF00;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: #FF00FF;
-  }
-  
-  /* selected link */
-  a:focus {
-    color: #0000FF;
-  }
-
-  .jumbotron{
-    background-image: url("../images/sakura.gif");
-   }
-
- 
-
-h1  {
-    color: rgb(255, 8, 0);
-    font-family: 'Chalkduster', fantasy;
-    font-size: 300%;
-    font-style: italic;
-    text-align: center;
-    }
-
-h2  {
-    color: rgb(255, 8, 0);
-    font-family: 'Chalkduster', fantasy;
-    font-size: 800%;
-    font-style: italic;
-    text-align: center;
-    }    
-
-h3  {
-  color: rgb(255, 8, 0);
-  font-family: 'Chalkduster', fantasy;
-  font-size: 300%;
-  font-style: italic;
+h5 {
+  color: blue;
+  font-family: "Roboto", sans-serif;
+  font-size: 150%;
   text-align: center;
-  }
-
-h4  {
-    color: blue;
-    font-family: 'Roboto', sans-serif;
-    font-size: 150%;
-    text-align: center;
->>>>>>> 286abf1e3bd7f11d425508677cacbc35bc9bb87f
 }
 
-h5  {
-    color: blue;
-    font-family: 'Roboto', sans-serif;
-    font-size: 150%;
-    text-align: center;
-}
-
-h   {
-    color: blue;
-    font-family: 'Roboto', sans-serif;
+h {
+  color: blue;
+  font-family: "Roboto", sans-serif;
   font-size: 200%;
 }
-p    {
-    color: red;
-    font-family: 'Roboto', sans-serif;
+p {
+  color: red;
+  font-family: "Roboto", sans-serif;
   font-size: 100%;
   text-align: center;
 }
 
-    img { 
-      width: 100%; 
-      border: 5px solid red;
-      padding: 2px;
-      margin: 5px;
-      }
+img {
+  width: 100%;
+  border: 5px solid red;
+  padding: 2px;
+  margin: 5px;
+}
 
-      img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 40%;
-      }
-
-    
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}

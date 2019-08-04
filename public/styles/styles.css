@@ -1,21 +1,36 @@
 /* unvisited link */
 a:link {
-  color: rgb(55, 0, 255);
+  color: #0000ff;
 }
 
 /* visited link */
 a:visited {
-  color: #00ff00;
+  color: #ff0000;
 }
 
 /* mouse over link */
 a:hover {
-  color: #ff00ff;
+  color: #ff0062;
 }
 
 /* selected link */
 a:focus {
-  color: #0000ff;
+  color: #b700ff;
+}
+
+#cancelbtn {
+  background-color: rgb(167, 63, 124);
+  color: rgb(88, 6, 57);
+}
+
+#loginbtn {
+  background-color: rgb(167, 63, 124);
+  color: rgb(94, 0, 58);
+}
+
+#add-btn {
+  background-color: rgb(167, 63, 124);
+  color: rgb(94, 0, 58);
 }
 
 .jumbotron {
@@ -28,13 +43,15 @@ a:focus {
 
 body,
 html {
-  background-image: url("../images/rosegradiant.jpg");
+  margin: 0px;
+  background-image: url("../images/mauvegradiant.jpg");
   background-repeat: no-repeat;
+  background-size: 1000px, 1000px;
   /* background-size: */
 }
 
 h1 {
-  color: rgb(255, 8, 0);
+  color: rgb(102, 0, 5);
   font-family: "Chalkduster", fantasy;
   font-size: 300%;
   font-style: italic;
@@ -42,7 +59,7 @@ h1 {
 }
 
 h2 {
-  color: rgb(255, 8, 0);
+  color: rgb(102, 0, 5);
   font-family: "Chalkduster", fantasy;
   font-size: 800%;
   font-style: italic;
@@ -50,39 +67,47 @@ h2 {
 }
 
 h3 {
-  color: rgb(255, 8, 0);
+  color: rgb(102, 0, 5);
   font-family: "Chalkduster", fantasy;
   font-size: 300%;
   font-style: italic;
   text-align: center;
 }
 
-.card {
+.list-group-item {
   margin: 10px;
-  background-color: rgb(211, 3, 20);
-  color: rgb(199, 82, 88);
+  background-color: rgb(255, 129, 146);
 }
 
-.jumbotron {
+.card {
   margin: 10px;
-  background-color: rgb(255, 134, 144);
-  color: rgb(82, 1, 5);
+  background-color: rgb(255, 129, 146);
+}
+.haiku-container {
+  margin: 10px;
+  background-color: rgb(154, 100, 255);
+  color: rgb(19, 0, 34);
 }
 
 h5 {
-  color: blue;
+  color: rgb(19, 0, 34);
   font-family: "Roboto", sans-serif;
   font-size: 150%;
   text-align: center;
 }
 
 h {
-  color: blue;
+  color: rgb(19, 0, 34);
   font-family: "Roboto", sans-serif;
   font-size: 200%;
 }
+
+.psw {
+  color: rgb(19, 0, 34);
+}
+
 p {
-  color: red;
+  color: rgb(102, 0, 5);
   font-family: "Roboto", sans-serif;
   font-size: 100%;
   text-align: center;
@@ -94,5 +119,5 @@ img {
   margin-right: auto;
   width: 40%;
   padding: 2px;
-  border: 5px solid red;
+  border: 5px solid rgb(154, 100, 255);
 }
